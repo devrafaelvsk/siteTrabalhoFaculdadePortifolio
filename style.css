@@ -119,31 +119,44 @@ footer {
   padding: 20px 0;
 }
 
-/* Pagina contato */
+/* Página de Contato */
 .contato {
-  min-height: calc(10vh - 10px);
+  min-height: calc(100vh - 80px);
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.contato .content {
   text-align: center;
 }
 
-.contato ul {
-  list-style: none;
-  padding: 0;
+.contato .content {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.contato li {
-  margin-bottom: 5px;
-  font-size: 1.1rem;
+.contato .left-side {
+  flex: 1;
+  margin-right: 40px;
 }
 
-.contato i {
-  margin-right: 10px;
-  color: #ffffff;
+.contato .right-side {
+  flex: 1;
+}
+
+.contato input,
+.contato textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contato textarea {
+  height: 120px;
 }
 
 /* Botão whatsapp */
@@ -191,9 +204,10 @@ footer {
     height: 400px;
   }
 }
+
 .fotop {
   width: 280px;
-  margin: 0 0 20px 20px; 
+  margin: 0 0 20px 20px;
   border-radius: 5px;
   float: right;
 }
@@ -206,30 +220,31 @@ footer {
 }
 
 #formacao .cursos {
-  display: block;     /* Transforma a imagem em elemento de bloco */
+  display: block;
   width: 750px;
   height: 350px;
-  margin: 0 auto 20px auto; /* Margens: 0 em cima/baixo, auto nas laterais, 20px embaixo */
+  margin: 0 auto 20px auto;
   border: 1px solid #000000;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Telas menores */
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   #formacao .cursos {
-    width: 95%; /* Ajuste a largura para telas menores */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 95%;
+    height: auto;
   }
 }
 
 /*Portifolio*/
 
-#portfolio h3{
+#portfolio h3 {
   text-align: center;
   margin-bottom: 15px;
 }
-.sitesaude{
+
+.sitesaude {
   display: block;
   width: 1000px;
   margin: 0 auto 20px auto;
@@ -237,13 +252,13 @@ footer {
   border-radius: 5px;
 }
 
-.linksite{
+.linksite {
   text-align: center;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   #portfolio .sitesaude {
-    width: 95%; /* Ajuste a largura para telas menores */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 95%;
+    height: auto;
   }
 }

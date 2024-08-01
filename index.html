@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<!--introducao-->
+
 <body>
     <header>
         <div class="container">
@@ -28,12 +30,13 @@
             <h2>Olá, eu sou o Rafael</h2>
             <h1>Desenvolvedor Full-Stack</h1>
             <img src="imagens/cafe.png" alt="programação + café" class="cafe-img"> <br> <br>
-            <p>"Uma máquina pode fazer tudo o que podemos descrevê-la para fazer."</p> 
+            <p>"Uma máquina pode fazer tudo o que podemos descrevê-la para fazer."</p>
             <p>-Alan Turing.</p> <br>
             <a href="#contato" class="btn">Contate-me</a>
         </div>
     </section>
 
+    <!--sobre-->
     <section id="sobre">
         <div class="container">
             <h2>Sobre Mim</h2>
@@ -55,6 +58,7 @@
         </div>
     </section>
 
+    <!--formacao-->
     <section id="formacao">
         <div class="container">
             <h2>Formação</h2>
@@ -75,14 +79,18 @@
         </div>
     </section>
 
+    <!--portfolio-->
     <section id="portfolio">
         <div class="container">
             <h2>Portfólio</h2>
             <h3>Site de Saúde e Bem-Estar</h3>
             <img src="imagens/sitesaude.png" alt="sitesaude" class="sitesaude">
-            <p>Desenvolvi este projeto como parte de uma atividade extensionista da faculdade, que exige a associação do aprendizado acadêmico com ações em prol da comunidade. 
-                Decidi criar um site que oferece receitas saudáveis, artigos sobre saúde, exercícios e outras informações úteis para promover o bem-estar.</p>
-            <p class="linksite">Acesse o site clicando<a href="https://devrafaelvsk.github.io/siteSaudeeBem-Estar/" target="_blank"> aqui</a> 
+            <p>Desenvolvi este projeto como parte de uma atividade extensionista da faculdade, que exige a associação do
+                aprendizado acadêmico com ações em prol da comunidade.
+                Decidi criar um site que oferece receitas saudáveis, artigos sobre saúde, exercícios e outras
+                informações úteis para promover o bem-estar.</p>
+            <p class="linksite">Acesse o site clicando<a href="https://devrafaelvsk.github.io/siteSaudeeBem-Estar/"
+                    target="_blank"> aqui</a>
             </p>
 
             <br>
@@ -91,28 +99,39 @@
 
     <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
-         crossorigin="anonymous" referrerpolicy="no-referrer" />
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
         <header>
         </header>
 
+        <!--contato-->
         <section id="contato" class="contato">
             <div class="container">
                 <div class="content">
                     <div class="left-side">
                         <h2>Vamos Conversar!</h2>
                         <p>Estou criando um portfólio bem elaborado porque quero começar a trabalhar como freelancer.
-                            <br> Este projeto simples eu desenvolvi para concluir o trabalho.
-                            Tem alguma dúvida sobre o projeto? Me envie uma mensagem!</p> <br>
+                            <br>
+                            Este projeto simples eu desenvolvi para concluir o trabalho. <br>
+                            Tem alguma dúvida sobre o projeto? Me envie uma mensagem!
+                        </p> <br>
                         <ul>
                             <li><i class="fas fa-envelope"></i><a>rafaelvesoloski@gmail.com</a></li>
-                            <li><i class="fas fa-phone-alt"></i><a> +55 (47) 999263733</a>
-                            </li>
+                            <li><i class="fas fa-phone-alt"></i><a> +55 (47) 999263733</a></li>
                             <li><i class="fas fa-map-marker-alt"></i> Mafra - SC</li>
                         </ul>
+                    </div>
+
+                    <div class="right-side">
+                        <form action="#" method="post">
+                            <input type="text" name="nome" placeholder="Seu Nome" required>
+                            <input type="email" name="email" placeholder="Seu Email" required>
+                            <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                            <button type="submit" class="btn">Enviar Mensagem</button>
+                        </form>
                     </div>
                 </div>
             </div>
